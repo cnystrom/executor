@@ -1,0 +1,89 @@
+
+			EXECUTOR for Windows
+
+		by Chris Nystrom, and J.R. McConnell
+
+
+	This program is a Microsoft Windows 3.0 application that quickly
+starts other programs. 
+
+	There are three ways to start an application with the default
+Windows setup. They each have drawbacks.
+	You can make an Icon for it, and then starting the program from the
+icon. However you may not want to clutter up your desktop with icons for
+applications you rarely use. Also you may be trying out an application for
+the first time, and want to see how good it is before you add it to your
+desktop.
+	You can use the RUN command from the FILE menu of the Program
+Manager, but you need to know the exact path, and filename.
+	If you don't know the exact path, and file name, then you can start
+up the File Manager. However this is a slow process, as the File Manager
+takes time to read the file directories of your entire hard drive. Then you
+have to select the drive, and subdirectory where the file is found, and then
+you can start your application.
+
+	Executor is simply a Dialog Box that lets you browse through your
+drives and directories to select the file that you want to run.
+
+	Executor also has Radio Buttons to filter out certain files based
+on the file name extension. The default setting when the program starts is to
+only show files with the .EXE extension. All windows programs have this
+extension. However Executor will also start standard DOS applications with
+.COM extensions, as well as DOS batch files with .BAT extensions. If you do
+not know the file name extension for the file you want to start, then select
+the ALL Radio Button and all the files in the directory will be displayed.
+However, only files with the extensions .EXE, .COM, or .BAT can be started.
+
+	Executor is Shareware. If you can send a $5 donation we would
+appreciate it. However our greatest desire is that you use the program, and
+that it increases your joy of computing. So, if you can't afford the $5,
+please continue to use the program. Please send in the registration form in
+either case, as we would like to get a feel for how many people use the
+program. If you do register, and there are updates, we will send you a copy
+of the latest version. We will also send you information on other programs we
+develop.
+
+	Please distribute this program as widely as possible. However, this
+program is to only be distributed WITH source code. By providing the source
+code we hope to make this program as useful as possible.
+
+	Feel free to modify and improve this code. Please document your
+changes, and provide copies of the source code to us at the address, or the
+BBS listed below. We will act as a central point of contact for all
+improvements.
+
+			Innovation Inc.
+			P.O. Box 4496
+			Middletown, RI
+				02840
+
+			Voice:	(401) 841-5607
+
+			BBS:	(401) 847-2603
+				2400 Baud
+
+-------------------------------------------------------------------------------
+EXECUTOR 1.0 Registration
+
+Name: _________________________________________________________________________
+
+Address: ______________________________________________________________________
+
+City: ________________________________   State: _______________________________
+
+Zip Code: _____________________________________________________________________
+
+Where did you find this program? ______________________________________________
+
+Feedback/Comments: ____________________________________________________________
+
+_______________________________________________________________________________
+
+
+Enclosed: $ __________________________
+
+-------------------------------------------------------------------------------
+
+Thank you for your support!
+
+

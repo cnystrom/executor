@@ -1,0 +1,14 @@
+/*----------------------------------
+   Executor resorce list
+  ----------------------------------*/
+#include <windows.h>
+#include "executor.h"
+
+executor   ICON    executor.ico
+
+rcinclude executor.dlg
+
+STRINGTABLE
+    {
+    ERR1,      "Can not open %s."
+    }

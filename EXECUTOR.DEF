@@ -1,0 +1,13 @@
+; module-definition file for EXECUTOR.EXE
+
+NAME         EXECUTOR
+
+DESCRIPTION  'Executor.     (c) Innovation 1991'
+EXETYPE         WINDOWS
+STUB               'WINSTUB.EXE'
+CODE               PRELOAD MOVEABLE DISCARDABLE
+DATA                PRELOAD MOVEABLE MULTIPLE
+HEAPSIZE        1024
+STACKSIZE       8192
+EXPORTS         WndProc
+                         FileDlgProc

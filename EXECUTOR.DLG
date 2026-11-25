@@ -1,0 +1,40 @@
+DLGINCLUDE RCDATA DISCARDABLE
+BEGIN
+    "EXECUTOR.H\0"
+END
+
+ABOUTBOX DIALOG 22, 17, 144, 75
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About Executor"
+BEGIN
+    CTEXT           "File Executor", -1, 0, 10, 144, 8
+    CTEXT           "(c)  Innovation Inc.", -1, 0, 24, 144, 8
+    CTEXT           "Version 1.0", -1, 0, 34, 144, 8
+    ICON            "executor", -1, 20, 35, 0, 0
+    DEFPUSHBUTTON   "OK", IDM_ABOUT, 53, 59, 32, 14, WS_GROUP
+END
+
+FILE DIALOG 11, 26, 232, 153
+STYLE WS_POPUP | WS_CAPTION
+CAPTION "Select File to Execute"
+FONT 8, "Helv"
+BEGIN
+    LTEXT           "&File :", -1, 7, 8, 25, 10
+    EDITTEXT        IDD_IFNAME, 33, 8, 193, 12, ES_AUTOHSCROLL
+    LTEXT           "&Files in", -1, 7, 27, 33, 10
+    LTEXT           "", IDD_FPATH, 41, 26, 127, 12, NOT WS_GROUP
+    LISTBOX         IDD_FLIST, 7, 44, 79, 81, LBS_SORT | WS_VSCROLL | 
+                    WS_TABSTOP
+    LISTBOX         IDD_DLIST, 93, 44, 77, 81, LBS_SORT | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    CONTROL         "EXE", DLG_EXE, "Button", BS_AUTORADIOBUTTON, 190, 45, 
+                    39, 10
+    CONTROL         "COM", DLG_COM, "Button", BS_AUTORADIOBUTTON, 190, 65, 
+                    39, 10
+    CONTROL         "BAT", DLG_BAT, "Button", BS_AUTORADIOBUTTON, 190, 85, 
+                    39, 10
+    CONTROL         "ALL", DLG_ALL, "Button", BS_AUTORADIOBUTTON, 190, 105, 
+                    39, 10
+    DEFPUSHBUTTON   "OK", DLG_OK, 73, 131, 29, 14, WS_GROUP
+    PUSHBUTTON      "Cancel", DLG_CAN, 127, 131, 50, 14, WS_GROUP
+END
