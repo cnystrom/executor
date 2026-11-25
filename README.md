@@ -7,6 +7,13 @@ The included `EXECUTOR.DOC` describes it as a Microsoft Windows 3.0
 application: a dialog box that lets you browse drives and directories
 and start `.EXE`, `.COM`, or `.BAT` files.
 
+Its purpose: Executor pops up a box where you type the path and name of a
+program to run. As Chris remembers it, Windows 3.0 had no such box, and
+Windows 3.1 later covered this with Program Manager's File > Run.
+
+Executor was Chris Nystrom's first Windows program, written in the Windows 3.0
+era with his late best friend J.R. McConnell.
+
 Version 1.0, 25 June 1991. Developed by Chris Nystrom and J.R. McConnell
 for Innovation Inc.
 
@@ -25,11 +32,10 @@ icon (`.ICO`) were stripped. Source and the original documentation remain.
 
 ## License
 
-The original documentation calls this shareware and asks that it only be
-distributed with source code. It invites modifications, with changes
-documented, and a $5 donation if you can send one, plus a registration
-form in `EXECUTOR.DOC`. Those terms are in the original document, which
-is unchanged.
+Public domain. In 2026 Chris Nystrom released Executor, written with his late
+best friend J.R. McConnell, into the public domain under the Unlicense; see
+`LICENSE`. The original 1991 shareware terms are kept, unchanged, in
+`EXECUTOR.DOC` for history, but they no longer apply.
 
 ## Build
 
