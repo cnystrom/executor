@@ -12,17 +12,11 @@ for Innovation Inc.
 
 ## Origin
 
-From Chris Nystrom's old programs page on cactus.org
-(`http://www.cactus.org/~nystrom/programs.html`). The download was
-`executor.zip`.
+From Chris Nystrom's old programs page (originally on cactus.org).
+The download was `executor.zip`.
 
-Programs page capture:
-
-https://web.archive.org/web/20090106010843/http://outserv.cactus.org/~nystrom/programs.html
-
-File capture used (8 Nov 1997; later recaptures were byte-identical):
-
-https://web.archive.org/web/19971108102541id_/http://www.cactus.org/~nystrom/executor.zip
+https://nystrom.family/chris/old/programs.html
+https://nystrom.family/chris/old/executor.zip
 
 The zip contained `EXECUTOR.EXE`, `EXECUTOR.DOC`, and an inner source zip
 (`EXECSRC.ZIP`). The executable, the compiled resource (`.RES`), and the
