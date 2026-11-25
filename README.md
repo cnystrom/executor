@@ -17,6 +17,7 @@ The download was `executor.zip`.
 
 https://nystrom.family/chris/old/programs.html
 https://nystrom.family/chris/old/executor.zip
+All of Chris's code: https://nystrom.family/chris/code/
 
 The zip contained `EXECUTOR.EXE`, `EXECUTOR.DOC`, and an inner source zip
 (`EXECSRC.ZIP`). The executable, the compiled resource (`.RES`), and the
