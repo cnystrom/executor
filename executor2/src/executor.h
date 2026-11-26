@@ -12,6 +12,7 @@
 #define IDC_WORKDIR     1004
 #define IDC_ADMIN       1005
 #define IDC_ABOUT       1006
+#define IDC_CLEAR       1007
 #define IDC_STATIC      -1
 
 #endif

@@ -1,4 +1,4 @@
-# Executor 2.0 — cross-compile with mingw-w64
+# Executor 2.1 — cross-compile with mingw-w64
 #   make          builds 64-bit and 32-bit .exe
 #   make 64       builds only bin/executor.exe
 #   make 32       builds only bin/executor32.exe

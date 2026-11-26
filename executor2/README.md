@@ -1,9 +1,9 @@
-# Executor 2.0
+# Executor 2.1
 
 A small program launcher for Windows 10 and 11. Type or browse to a
 program, document, or URL and run it.
 
-Executor 2.0 continues the idea of Executor, the 1991 Windows 3.0
+Executor 2.1 continues the idea of Executor, the 1991 Windows 3.0
 program written by Chris Nystrom and J.R. McConnell. The original
 popped up a dialog where you typed a path or browsed drives and
 directories to start a `.EXE`, `.COM`, or `.BAT` file — a File > Run
@@ -16,6 +16,7 @@ crisp pixel art at 16, 32, 48, and 256 pixels.
 
 - File field, with an editable list of the last 10 programs you ran
   (saved in `%APPDATA%\Executor\recent.txt`)
+- Clear list button, which empties that list and `recent.txt`
 - Browse button, using the Windows common file dialog
 - Optional arguments and working directory (the working directory
   defaults to the program's folder when left blank)
@@ -49,4 +50,5 @@ or a recent Windows SDK.
 Public domain (Unlicense). See `LICENSE`.
 
 Original Executor (1991) by Chris Nystrom and J.R. McConnell.
-Executor 2.0 (2026).
+Executor 2.0 (2026). Executor 2.1 (2026) adds a Clear list button
+for the recent-programs list.

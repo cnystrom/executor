@@ -1,10 +1,10 @@
 /*
- *  Executor 2.0
+ *  Executor 2.1
  *
  *  A program launcher for Windows 10 and 11.
  *
  *  Original Executor (1991) by Chris Nystrom and J.R. McConnell.
- *  Executor 2.0 (2026).
+ *  Executor 2.0 (2026). Executor 2.1 adds a Clear list button.
  *
  *  Public domain. See LICENSE.
  */
@@ -296,6 +296,22 @@ fill_combo(HWND combo, const struct recent_list *list)
 }
 
 static void
+clear_recent(HWND hdlg, struct recent_list *list)
+{
+    if (list->count == 0)
+        return;
+
+    if (MessageBoxW(hdlg,
+                    L"Clear the list of recent programs?",
+                    APP_TITLE, MB_YESNO | MB_ICONQUESTION) != IDYES)
+        return;
+
+    list->count = 0;
+    save_recent(list);
+    fill_combo(GetDlgItem(hdlg, IDC_FILE), list);
+}
+
+static void
 show_win_error(HWND hwnd, const wchar_t *what, DWORD err)
 {
     wchar_t *sys = NULL;
@@ -525,6 +541,9 @@ MainProc(HWND hdlg, UINT msg, WPARAM wparam, LPARAM lparam)
         case IDC_ABOUT:
             DialogBoxW(GetWindowInstance(hdlg),
                        MAKEINTRESOURCEW(IDD_ABOUT), hdlg, AboutProc);
+            return TRUE;
+        case IDC_CLEAR:
+            clear_recent(hdlg, recent);
             return TRUE;
         }
         break;
