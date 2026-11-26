@@ -49,6 +49,8 @@ or a recent Windows SDK.
 
 Public domain (Unlicense). See `LICENSE`.
 
-Original Executor (1991) by Chris Nystrom and J.R. McConnell.
+Executor (1991) by Chris Nystrom and J.R. McConnell. Released into the
+public domain by Chris Nystrom in 2026, in memory of J.R. McConnell.
+
 Executor 2.0 (2026). Executor 2.1 (2026) adds a Clear list button
 for the recent-programs list.

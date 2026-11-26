@@ -17,6 +17,10 @@ era with his late best friend J.R. McConnell.
 Version 1.0, 25 June 1991. Developed by Chris Nystrom and J.R. McConnell
 for Innovation Inc.
 
+The 1991 Win16 source (`EXECUTOR.C` and the other `EXECUTOR.*` files) is
+kept here as history. It cannot be built as a Win32 program. The current
+program is Executor 2.1, a rewrite for Windows 10 and 11, in `executor2/`.
+
 ## Origin
 
 From Chris Nystrom's old programs page (originally on cactus.org).
@@ -32,12 +36,28 @@ icon (`.ICO`) were stripped. Source and the original documentation remain.
 
 ## License
 
-Public domain. In 2026 Chris Nystrom released Executor, written with his late
-best friend J.R. McConnell, into the public domain under the Unlicense; see
-`LICENSE`. The original 1991 shareware terms are kept, unchanged, in
-`EXECUTOR.DOC` for history, but they no longer apply.
+Executor (1991) by Chris Nystrom and J.R. McConnell. Released into the
+public domain by Chris Nystrom in 2026, in memory of J.R. McConnell,
+under the Unlicense; see `LICENSE`.
+
+The original 1991 shareware terms are kept, unchanged, in `EXECUTOR.DOC`
+for history, but they no longer apply.
 
 ## Build
 
-This is a Windows 3.0 program (`windows.h`, a `.MAK` / resource script
-layout). It was not compiled here. No source was modified.
+To build Executor 2.1 (Windows 10/11):
+
+    cd executor2
+    make
+
+This produces two statically linked executables that need only Windows
+system DLLs:
+
+- `executor2/bin/executor.exe` — 64-bit
+- `executor2/bin/executor32.exe` — 32-bit
+
+See `executor2/README.md` for features, other make targets, and how to
+build on Windows.
+
+The original 1991 program is a Windows 3.0 project (`windows.h`, a
+`.MAK` / resource script layout) and is not compiled here.
